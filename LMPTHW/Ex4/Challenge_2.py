@@ -7,8 +7,8 @@ parser.add_argument("-p", "--play", help="play a lot")
 args = parser.parse_args()
 
 if args.eat:
-    print "I eat a lot"
+    print "I eat " + args.eat
 if args.drink:
-    print "I drink a lot"
+    print "I drink " + args.drink
 if args.play:
-    print "I play a lot"
+    print "I play " + args.play
